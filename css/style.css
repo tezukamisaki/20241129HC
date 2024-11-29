@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(../img/hud-ui-gui-futuristic-user-interface-screen-elements-high-tech-screen-for-video-game-sci-fi-concept-design-vector.jpg);
+  background-size:  cover;
+}
+.ely img{
+    object-fit: cover;
+}
+.wrapper {
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+/****************************
+* サイドバー
+*****************************/
+.sidebar {
+  color: #fff;
+  width: 142px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  border: #fff 1px;
+}
+
+.aside h2{ transform: rotate( 90deg );
+}
+
+
+/********************
+* サイト名
+*********************/
+.site-name {
+  background: #333;
+  width: 146px;
+  height: 146px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+.site-name h1,
+.site-name p {
+  margin: 0;
+}
+.site-name h1 {
+  font-size: 42px;
+  line-height: 48px;
+}
+.site-name p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/*** nav ***/
+nav {
+  padding: 0 40px;
+}
+/********************
+* ページリスト
+*********************/
+.page-list {
+  margin: 40px 0;
+}
+.page-list li + li {
+  margin-top: 1em;
+}
+
+/********************
+* タグ
+*********************/
+.tags {
+  display: flex;
+  gap: 20px 16px;
+  flex-wrap: wrap;
+}
+.tag {
+  color: #fff;
+  padding: 4px 16px;
+  border-radius: 20px;
+}
+.tag:hover {
+  background: #444;
+  text-decoration: none;
+}
+
+
+/****************************
+* ヘッダー
+*****************************/
+header {
+    background-color: #333;
+    width: 1298;
+    height: 57px;
+    position: fixed; /* ヘッダーを固定する */
+  top: 0; /* 上端に配置 */
+  left: 0; /* 左端に配置 */
+  right: 0; 
+  display: flex;
+  justify-content: center;
+
+}
+.header-content {
+    display: flex; /* フレックスボックスで横並び */
+    align-items: center; /* 横軸の中央揃え */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+
+div header{
+    color: #fff;
+    margin: auto;
+  }
+
+/****************************
+* メイン
+*****************************/
+main {
+  position: relative;
+}
+h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+}
+
+/********************
+* #section-1
+*********************/
+#section-1 {
+  max-width: 920px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: #fff;
+  border-radius: 20px;
+}
+#section-1 .text {
+  flex: 1 0 0;
+}
+
+/*** カード ***/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+.card {
+  width: 1159px;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  line-height: 24px;
+  align-items: center;
+}
+
+/********************
+* #section-2
+* #section-3
+*********************/
+#section-2,
+#section-3 {
+  padding: 80px 67px;
+}
+#section-2 h2,
+#section-3 h2 {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+/********************
+* #section-2
+*********************/
+#section-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 180px;
+}
+/********************
+* #section-3
+*********************/
+#section-3 .card {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/****************************
+* フッター
+*****************************/
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+.copyright {
+  font-size: 14px;
+}
+
+.ggg {
+    width: 40%;
+    
+}
